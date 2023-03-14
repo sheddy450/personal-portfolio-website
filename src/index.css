@@ -1,13 +1,284 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  /* background-image: url(./image/darkimg2.jpg); */
+  background: rgb(48, 44, 44);
+  background-size:cover;
+  color: white;
+ font-family: "Quicksand"; 
+
+}
+h1{
+  color:aquamarine;
+}
+.logo{
+  display: flex;
+  align-items: baseline;
+  background: transparent;
+  color: white;
+}
+.logo a{
+  padding: .5em;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+.logo a:hover{
+  font-size: 35px;
+  color: white;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 2rem;
+  color: white;
+}
+nav .links{
+  margin-top: 1.5em;
+}
+nav a{
+  margin: 0 2rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+nav a:hover{
+  color: orange;
+}
+header .nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden; 
+   opacity: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+span{
+  padding: .5em;
+  border-style: solid;
+  border-radius: 15%;
+  border-width: 2px;
+}
+section h1{
+  font-size: 30px;
+  font-family: pacifico;
+  color: aquamarine;
+}
+.letsChat a{
+  font-weight:bold ;
+}
+.letsChat a:hover{
+  color: orange;
+}
+/* ------About------- */
+article{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  grid-gap: 50px 30px;
+  font-size: 20px;
+  margin-top: 2em;
+}
+article .myImg{
+  overflow: hidden;
+}
+article .myImg, .sheddy{
+   width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  margin-left: 1em;
+}
+article .text{
+  display: flex;
+  padding-left: 1em;
+  /* align-content: center; */
+}
+article .text .content{
+  padding-left: 20px;
+}
+.about{
+  margin-top: 2em;
+}
+.about h1{
+  text-align: center;
+}
+/* Service*/
+
+section{
+  display: grid;
+  justify-items: center;
+  margin-top: 7em;
+}
+section h2{
+  text-align: center;
+}
+.letsChat{
+  margin-top: 4em;
+}
+ .letsChat a{
+  color: white;
+  border: 2px solid;
+  font-size: 20px;
+  padding: .5em 4em .5em 4em;
+  border-radius: .5em;
+  text-decoration: none;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+footer a{
+  padding: 1em;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: aquamarine;
+}
+footer a:hover{
+  color: orange;
+}
+.service{
+  margin-top: 2em;
+}
+.service h1{
+  text-align: center;
+}
+.service a{
+  font-size: 30px;
+  text-decoration: none;
+}
+.service p{
+  font-size: 20px;
+}
+.service li{
+  font-size: 20px;
+}
+.gitHub:hover{
+ font-size: 35px;
+
+}
+/* Portfolio section */
+.portfolio{
+  margin-top: 2em;
+}
+.portfolio h1{
+  text-align: center;
+}
+.img{
+  width: 20em;
+  height: 30em;
+}
+.background-Image{
+  /* margin: auto; */
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+flex-wrap: wrap;
+}
+.background-Image .blog{
+text-align: center;
+}
+.blog{
+  padding-left: 1em;
+  padding-top: 2em;
+}
+.blog p{
+  text-align: center;
+}
+.blog .img{
+ border-radius: 5%;
+  transition: transform 0.3s ease;
+}
+.blog p{
+
+  font-size: 20px;
+}
+.img:hover {
+  transform: skewY(5deg);
+}
+/* Technical reveiw */
+.review h1{
+  text-align: center;
+}
+.review{
+  margin-top: 2em;
+}
+/* ------Contact-------- */
+.all-contacts{
+  margin-top: 4em;
+}
+.contact{
+  text-align: center;
+  font-size: 20px;
+}
+.contact-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5em;
+}
+.contact-list a{
+  font-size: 17px;
+  text-decoration: none;
+ text-align: center;
+}
+.contact-list a:hover{
+color: pink;
+font-size: 25px;
+}
+
+@media(max-width: 991px){
+  article .text .content{
+    padding-left: 0;
+  }
+
+}
+@media (max-width: 950px){
+  article{
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+/* ---------toggle---------------- */
+@media (max-width: 1024px) {
+  header .nav-btn{
+    visibility: visible;
+    opacity: 1;
+    font-size: 1.8rem;
+  }
+  nav a {
+    background: transparent;
+    font-size: 1.8rem;
+  }
+  header nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background: rgb(48, 44, 44);
+    transition: 1ms; 
+    transform: translateY(-100vh);
+  }
+  header .responsive_nav{
+    transform: none;
+    
+   } 
+   nav .nav-close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+   }
 }
