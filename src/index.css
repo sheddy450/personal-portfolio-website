@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *{
-  /* background-image: url(./image/darkimg2.jpg); */
   background: rgb(48, 44, 44);
-  background-size:cover;
   color: white;
  font-family: "Quicksand"; 
-
 }
 h1{
   color:aquamarine;
@@ -17,6 +14,7 @@ h1{
   align-items: baseline;
   background: transparent;
   color: white;
+  
 }
 .logo a{
   padding: .5em;
@@ -66,14 +64,33 @@ span{
   border-width: 2px;
 }
 section h1{
-  font-size: 30px;
+  font-size: 35px;
   font-family: pacifico;
   color: aquamarine;
 }
 .letsChat a{
-  font-weight:bold ;
+  font-weight:bold;
 }
 .letsChat a:hover{
+  color: orange;
+}
+/* --------Resume---------- */
+.resume{
+  margin-top: 3em;
+ 
+}
+.resume a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  border: solid;
+  border-radius: 2em;
+  padding:1em 2em 1em 2em;
+}
+.resume a:hover{
+  color: orange;
+}
+.resume:hover{
   color: orange;
 }
 /* ------About------- */
@@ -84,6 +101,7 @@ article{
 
   grid-gap: 50px 30px;
   font-size: 20px;
+  font-weight: bold;
   margin-top: 2em;
 }
 article .myImg{
@@ -163,7 +181,6 @@ footer a:hover{
 }
 .gitHub:hover{
  font-size: 35px;
-
 }
 /* Portfolio section */
 .portfolio{
@@ -194,11 +211,14 @@ text-align: center;
   text-align: center;
 }
 .blog .img{
+  margin-bottom: 2em;
+  border: 3px;
+  border-style: solid;
+ border-color: white;
  border-radius: 5%;
   transition: transform 0.3s ease;
 }
 .blog p{
-
   font-size: 20px;
 }
 .img:hover {
@@ -245,9 +265,13 @@ font-size: 25px;
     width: 90%;
     grid-template-columns: 1fr;
   }
+  .contact-list p{
+    display: none;
+  }
 }
 /* ---------toggle---------------- */
 @media (max-width: 1024px) {
+
   header .nav-btn{
     visibility: visible;
     opacity: 1;
@@ -274,7 +298,6 @@ font-size: 25px;
   }
   header .responsive_nav{
     transform: none;
-    
    } 
    nav .nav-close-btn{
     position: absolute;

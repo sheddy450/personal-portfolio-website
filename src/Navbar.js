@@ -10,20 +10,23 @@ const Navbar = () => {
     const navRef = useRef();
 
     const showNavbar = ()=>{
-        navRef.current.classList.toggle('responsive_nav');
+        if (navRef.current){
+            navRef.current.classList.toggle('responsive_nav');
+        }
+        
     }
 
     return ( 
         <header>
             <div className = 'logo'>
-            <a href="https://hashnode.com/@Shedranifico">
+            <a href="#">
                     <FontAwesomeIcon icon={faCode} />
                 </a>
                 <Link to='/'>SheddyTech</Link>
             </div>
            <nav onClick={()=> showNavbar(false)} ref={navRef}>
             
-            <Link id='/' to="/">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
             <Link to="/portfolio">Portfolio</Link>

@@ -2,6 +2,8 @@ import React from 'react';
 import image from './image/restaurrant.jpg';
 import secondImage from './image/blog.jpg';
 import thirdImage from './image/taskApp.jpg';
+import timer from './image/time.jpg'
+import todo from './image/Todo.jpg'
 
 
 const Portfolio = () => {
@@ -28,6 +30,20 @@ const Portfolio = () => {
                     did my national youth service scheme.
                     This is one of the pages<br/> i made from playing around with Html, CSS and JavaScript</p>
                     <a href="https://preeminent-daffodil-86105a.netlify.app/">   <img className='img' src={thirdImage} alt='display'/></a>
+                </div>
+                <div className='blog'>
+                    <h2>Contdown Timer</h2>
+                    <p>Welcome to my landing page, this is a random landing page<br/> that shows the a map of a community in ebonyi state where i <br/>
+                    did my national youth service scheme.
+                    This is one of the pages<br/> i made from playing around with Html, CSS and JavaScript</p>
+                    <a href="https://rainbow-conkies-91167f.netlify.app/">   <img className='img' src={timer} alt='display'/></a>
+                </div>
+                <div className='blog'>
+                    <h2>To-do app</h2>
+                    <p>Welcome to my landing page, this is a random landing page<br/> that shows the a map of a community in ebonyi state where i <br/>
+                    did my national youth service scheme.
+                    This is one of the pages<br/> i made from playing around with Html, CSS and JavaScript</p>
+                    <a href="https://grand-pony-a01842.netlify.app/">   <img className='img' src={todo} alt='display'/></a>
                 </div>
             </div>
         </div>

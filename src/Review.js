@@ -24,7 +24,7 @@ const Review = () => {
                     <h2>Introduction to JavaScript</h2>
                     <p>This article introuces us to the basics of javaScript from data type to<br/>
                     to JavaScript control structure</p>
-                    <a href="https://hashnode.com/post/cled61n3y01g16snv5xn4g3xe">   <img className='img' src={Array} alt='display'/></a>
+                    <a href="https://hashnode.com/post/cled61n3y01g16snv5xn4g3xe">  <img className='img' src={Array} alt='display'/></a>
                 </div>
             </div>
         </div>

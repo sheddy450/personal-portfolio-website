@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faGithub, faHashnode, faLinkedin, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='contact'>
                 <h2>Contact</h2>
                 <p>You can check out some of my articles published on hashnode. you can aswell contact me
-                  via any of the social media below. Just click on any of the link and you'd connect with me.
+                  via any of the platform below. Just click on any of the link and you'd connect with me.
                 </p>
             </div>
            <Container>

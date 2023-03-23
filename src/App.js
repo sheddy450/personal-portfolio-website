@@ -8,7 +8,6 @@ import Service from './Service';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Review from './Review';
-import backgroundImage from './image/blog.jpg';
 
 function App() {
   return (
