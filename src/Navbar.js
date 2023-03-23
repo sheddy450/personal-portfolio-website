@@ -19,7 +19,7 @@ const Navbar = () => {
     return ( 
         <header>
             <div className = 'logo'>
-            <a href="#">
+            <a href="/">
                     <FontAwesomeIcon icon={faCode} />
                 </a>
                 <Link to='/'>SheddyTech</Link>
