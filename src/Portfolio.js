@@ -16,7 +16,7 @@ const Portfolio = () => {
                     <p>Welcome to our restaurant website! Here at our restaurant,<br/> we
                         pride ourselves on serving delicious food and providing <br/>exceptional service to our customers. Our website is designed <br/>to 
                     give you a taste of what we have to offer.</p>
-                    <a href="https://melodious-madeleine-4daaf2.netlify.app/">   <img className='img' src={image} alt='display'/></a>
+                    <a href="https://shedrachportfolio.netlify.app/">   <img className='img' src={image} alt='display'/></a>
                 </div>
                 <div className='blog'>
                     <h2>Blog website</h2>
