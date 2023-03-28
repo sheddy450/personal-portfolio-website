@@ -111,7 +111,7 @@ article .myImg, .sheddy{
    width: 100%;
   height: 100%; 
   object-fit: cover;
-  margin-left: 1em;
+  /* margin-left: em; */
 }
 article .text{
   display: flex;
@@ -126,6 +126,9 @@ article .text .content{
 }
 .about h1{
   text-align: center;
+}
+.sheddy{
+  border-radius: 50%;
 }
 /* Service*/
 

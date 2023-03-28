@@ -4,6 +4,7 @@ import secondImage from './image/blog.jpg';
 import thirdImage from './image/taskApp.jpg';
 import timer from './image/time.jpg'
 import todo from './image/Todo.jpg'
+import weather from './image/weather.jpg'
 
 
 const Portfolio = () => {
@@ -43,6 +44,11 @@ const Portfolio = () => {
                     <p>Welcome to my To-do app, this is an app that help<br/> you set all your daily activities witout leaving a single thing<br/>
                      out . you can add items, edit items and clear all items. <br/> your lists will still be on the browser even after closing</p>
                     <a href="https://grand-pony-a01842.netlify.app/">   <img className='img' src={todo} alt='display'/></a>
+                </div>
+                <div className='blog'>
+                    <h2>Weather app</h2>
+                    <p>Welcome to my weather app, this weather app was built with<br/>  Html, CSS and Vanilla JavaScript. It shows you the weather<br/> condition of any city inputed in the search box. The temperature,<br/> Humidity and wind speed are the weather conditions displayed </p>
+                    <a href="https://sheddyweatherapp.netlify.app/">   <img className='img' src={weather} alt='display'/></a>
                 </div>
             </div>
         </div>
