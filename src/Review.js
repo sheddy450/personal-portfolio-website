@@ -16,7 +16,7 @@ const Review = () => {
                 </div>
                 <div className='blog'>
                     <h2>Advanced JavaScript concept simplified</h2>
-                    <p>JavaScript concepts can seem daunting at first, but with the right approach, they can be simplified and understood by developers of all levels. This article provides a simplified explanation of JavaScript concepts</p>
+                    <p>JavaScript concepts can seem daunting at first, but with the right <br/>approach, they can be simplified and understood by developers of all levels.<br/> This article provides a simplified explanation of JavaScript</p>
                     <a href="https://shedranifico.hashnode.dev/advanced-javascript-concepts-simplified">   <img className='img' src={jsBook} alt='display'/></a>
                 </div>
                 <div className='blog'>
