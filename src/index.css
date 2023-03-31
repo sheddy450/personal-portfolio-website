@@ -17,7 +17,7 @@ h1{
   
 }
 .logo a{
-  padding: .5em;
+  /* padding: .5em; */
   font-size: 30px;
   color: white;
   text-decoration: none;

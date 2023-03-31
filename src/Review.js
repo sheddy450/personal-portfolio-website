@@ -15,10 +15,9 @@ const Review = () => {
                     <a href="https://shedranifico.hashnode.dev/a-documentation-on-css-flexbox">   <img className='img' src={cssBook} alt='display'/></a>
                 </div>
                 <div className='blog'>
-                    <h2>Introduction to JavaScript array</h2>
-                    <p>This is an article on the introducttion to JavaScript array and some <br/>
-                    properties and methods used in modifying an array</p>
-                    <a href="https://shedranifico.hashnode.dev/javascript-arrays-introduction">   <img className='img' src={jsBook} alt='display'/></a>
+                    <h2>Advanced JavaScript concept simplified</h2>
+                    <p>JavaScript concepts can seem daunting at first, but with the right approach, they can be simplified and understood by developers of all levels. This article provides a simplified explanation of JavaScript concepts</p>
+                    <a href="https://shedranifico.hashnode.dev/advanced-javascript-concepts-simplified">   <img className='img' src={jsBook} alt='display'/></a>
                 </div>
                 <div className='blog'>
                     <h2>Introduction to JavaScript</h2>
