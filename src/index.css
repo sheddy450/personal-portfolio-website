@@ -207,11 +207,14 @@ flex-wrap: wrap;
 text-align: center;
 }
 .blog{
+  display: grid;
+  justify-content: space-between;
   padding-left: 1em;
   padding-top: 2em;
 }
 .blog p{
   text-align: center;
+  /* text-align: center; */
 }
 .blog .img{
   margin-bottom: 2em;
