@@ -5,6 +5,7 @@ import thirdImage from './image/taskApp.jpg';
 import timer from './image/time.jpg'
 import todo from './image/Todo.jpg'
 import weather from './image/weather.jpg'
+import ecommerce from './image/ecommerce.jpg'
 
 
 const Portfolio = () => {
@@ -13,11 +14,17 @@ const Portfolio = () => {
             <h1>My portfolio</h1>
             <div className='portfolio-content'>
                 <div className='blog'>
-                    <h2>Restaurant website</h2>
+                    <h2>Restaurant Landing Page</h2>
                     <p className='portText'>Welcome to our restaurant website! Here at our restaurant, we
                         pride ourselves on serving delicious food and providing exceptional service to our customers. Our website is designed to 
                     give you a taste of what we have to offer.</p>
                     <a href="https://dineoutrestaurant001.netlify.app/">   <img className='img' src={image} alt='display'/></a>
+                </div>
+                <div className='blog'>
+                    <h2>e-commerce Landing Page</h2>
+                    <p className='portText'>Welcome to my e-commerce landing page. This page was built with Next.js and Tailwind CSS.
+                    It displays a wide range of furnitures for home and office use. you can contact me from any of the link provided in the contact section </p>
+                    <a href="https://sheddyfurniture.netlify.app/">  <img className='img' src={ecommerce} alt='display'/></a>
                 </div>
                 <div className='blog'>
                     <h2>Blog website</h2>
