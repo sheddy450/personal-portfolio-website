@@ -5,24 +5,24 @@ import Array from './image/array.jpg'
 
 const Review = () => {
     return ( 
-        <div className="review">
+        <div className="portfolio">
             <h1>Technical Articles</h1>
-            <div className='background-Image'>
+            <div className='portfolio-content'>
                 <div className='blog'>
                     <h2>Documentation on CSS flexbox</h2>
-                    <p>This is an article on how to use the flexbox display property.<br/> 
+                    <p className='portText'>This is an article on how to use the flexbox display property. 
                     click on the image to read this beautiful piece published on hashnode</p>
                     <a href="https://shedranifico.hashnode.dev/a-documentation-on-css-flexbox">   <img className='img' src={cssBook} alt='display'/></a>
                 </div>
                 <div className='blog'>
                     <h2>Advanced JavaScript concept simplified</h2>
-                    <p>JavaScript concepts can be simplified and understood by developers <br/>of 
+                    <p className='portText'>JavaScript concepts can be simplified and understood by developers of 
                         all levels.This article provides a simplified explanation of JavaScript</p>
                     <a href="https://shedranifico.hashnode.dev/advanced-javascript-concepts-simplified">   <img className='img' src={jsBook} alt='display'/></a>
                 </div>
                 <div className='blog'>
                     <h2>Introduction to JavaScript</h2>
-                    <p>This article introuces us to the basics of javaScript <br/>from data type to
+                    <p className='portText'>This article introuces us to the basics of javaScript from data type to
                     to JavaScript control structure</p>
                     <a href="https://hashnode.com/post/cled61n3y01g16snv5xn4g3xe">  <img className='img' src={Array} alt='display'/></a>
                 </div>

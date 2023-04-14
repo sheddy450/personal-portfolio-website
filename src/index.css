@@ -186,6 +186,11 @@ footer a:hover{
  font-size: 35px;
 }
 /* Portfolio section */
+
+.portText{
+  max-width: auto;
+  text-align: right;
+}
 .portfolio{
   margin-top: 2em;
 }
@@ -196,25 +201,25 @@ footer a:hover{
   width: 20em;
   height: 30em;
 }
-.background-Image{
+.portfolio-content{
   /* margin: auto; */
-  display: flex;
-  align-items: baseline;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   justify-content: center;
-flex-wrap: wrap;
+  align-items: center;
 }
-.background-Image .blog{
+.portfolio .blog{
 text-align: center;
 }
 .blog{
   display: grid;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 1em;
   padding-top: 2em;
 }
 .blog p{
   text-align: center;
-  /* text-align: center; */
 }
 .blog .img{
   margin-bottom: 2em;
@@ -236,6 +241,8 @@ text-align: center;
 }
 .review{
   margin-top: 2em;
+  font-display: grid;
+  justify-content: center;
 }
 /* ------Contact-------- */
 .all-contacts{
@@ -260,11 +267,23 @@ color: pink;
 font-size: 25px;
 }
 
-@media(max-width: 991px){
+
+@media(max-width: 1157px){
   article .text .content{
     padding-left: 0;
   }
-
+  
+  .portfolio-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+@media(max-width: 671px){
+  .portfolio-content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 950px){
   article{

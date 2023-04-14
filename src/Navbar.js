@@ -30,7 +30,6 @@ const Navbar = () => {
             <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
             <Link to="/portfolio">Portfolio</Link>
-           
             <button className='nav-btn nav-close-btn' onClick={showNavbar(false)}> <FontAwesomeIcon icon={faTimes} /></button>
          </nav>
          <button className='nav-btn nav-open-btn' onClick={showNavbar}> <FontAwesomeIcon icon={faBars} /></button>
