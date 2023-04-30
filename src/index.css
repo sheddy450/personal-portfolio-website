@@ -1,10 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *{
-  background: rgb(48, 44, 44);
-  color: white;
- font-family: "Quicksand"; 
+  color: 'gray';
+  font-family: "Quicksand"; 
 }
 h1{
   color:aquamarine;
@@ -12,29 +16,13 @@ h1{
 .logo{
   display: flex;
   align-items: baseline;
-  background: transparent;
-  color: white;
-  
 }
 .logo a{
   /* padding: .5em; */
   font-size: 30px;
-  color: white;
   text-decoration: none;
-  background: transparent;
 }
-.logo a:hover{
-  font-size: 35px;
-  color: white;
-}
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  padding: 0 2rem;
-  color: white;
-}
+
 nav .links{
   margin-top: 1.5em;
 }
@@ -42,20 +30,8 @@ nav a{
   margin: 0 2rem;
   text-decoration: none;
   font-size: 25px;
-  color: white;
 }
-nav a:hover{
-  color: orange;
-}
-header .nav-btn{
-  padding: 5px;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
-  visibility: hidden; 
-   opacity: 0;
-}
+
 
 span{
   padding: .5em;
@@ -63,7 +39,8 @@ span{
   border-radius: 15%;
   border-width: 2px;
 }
-section h1{
+ div h1{
+  /* padding-top: 1.5em; */
   font-size: 35px;
   font-family: pacifico;
   color: aquamarine;
@@ -81,33 +58,12 @@ section h1{
 }
 .resume a{
   text-decoration: none;
-  color: white;
   font-size: 25px;
-  border: solid;
-  border-radius: 2em;
-  padding:1em 2em 1em 2em;
 }
-.resume a:hover{
-  color: orange;
-}
-.resume:hover{
-  color: orange;
-}
-/* ------About------- */
-article{
-  width: 80%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 
-  grid-gap: 50px 30px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 2em;
-}
-article .myImg{
-  overflow: hidden;
-}
-article .myImg, .sheddy{
+/* ------About------- */
+
+ .myImg .sheddy{
    width: 100%;
   height: 100%; 
   object-fit: cover;
@@ -121,9 +77,6 @@ article .text{
 article .text .content{
   padding-left: 20px;
 }
-.about{
-  margin-top: 2em;
-}
 .about h1{
   text-align: center;
 }
@@ -131,7 +84,6 @@ article .text .content{
   border-radius: 50%;
 }
 /* Service*/
-
 section{
   display: grid;
   justify-items: center;
@@ -166,9 +118,7 @@ footer a{
 footer a:hover{
   color: orange;
 }
-.service{
-  margin-top: 2em;
-}
+
 .service h1{
   text-align: center;
 }
@@ -191,9 +141,7 @@ footer a:hover{
   max-width: auto;
   text-align: right;
 }
-.portfolio{
-  margin-top: 2em;
-}
+
 .portfolio h1{
   text-align: center;
 }
@@ -204,8 +152,6 @@ footer a:hover{
 .portfolio-content{
   /* margin: auto; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
   justify-content: center;
   align-items: center;
 }
@@ -222,7 +168,6 @@ text-align: center;
   text-align: center;
 }
 .blog .img{
-  margin-bottom: 2em;
   border: 3px;
   border-style: solid;
  border-color: white;
@@ -231,9 +176,6 @@ text-align: center;
 }
 .blog p{
   font-size: 20px;
-}
-.img:hover {
-  transform: skewY(5deg);
 }
 /* Technical reveiw */
 .review h1{
@@ -252,15 +194,9 @@ text-align: center;
   text-align: center;
   font-size: 20px;
 }
-.contact-list{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.5em;
-}
+
 .contact-list a{
-  font-size: 17px;
   text-decoration: none;
- text-align: center;
 }
 .contact-list a:hover{
 color: pink;
@@ -329,4 +265,5 @@ font-size: 25px;
     top: 2rem;
     right: 2rem;
    }
+ 
 }
