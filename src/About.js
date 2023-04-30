@@ -8,7 +8,7 @@ import {AiFillHtml5} from 'react-icons/ai'
 
 const About = () => {
     return ( 
-        <div  className="about h-[100%] lg:h-[110vh] dark:bg-gray-900 dark:text-white">
+        <div  className="about h-[100%] md:h-[170vh] dark:bg-gray-900 dark:text-white">
             <h1 className='text-gray-600 pt-10 dark:text-white'>About</h1>
             <article className='lg:flex grid grid-cols-4items-center justify-center mx-auto mt-10'>
                    <div className='content mx-auto'>

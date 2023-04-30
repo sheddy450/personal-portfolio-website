@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="all-contacts">
             <div className='contact'>
                 <h2 className='text-gray-400 font-bold'>Contact</h2>
-                <p className='max-w-xl mx-auto'>You can check out some of my articles published on hashnode. you can aswell contact me
+                <p className='max-w-sm md:max-w-xl mx-auto'>You can check out some of my articles published on hashnode. you can aswell contact me
                   via any of the platform below. Just click on any of the link and you'd connect with me.
                 </p>
             </div>
@@ -43,12 +43,12 @@ const Contact = () => {
       </div>
       <div>
       <h1 className='text-2xl text-gray-400 font-bold'>Drop a comment, Send me an Email</h1>
-      <form className='grid gap-2 justify-start' action="https://formsubmit.co/shedrachmusa420@gmail.com" method="POST">
-          <div className='flex gap-2'>
+      <form className='grid gap-2 justify-center md:justify-start' action="https://formsubmit.co/shedrachmusa420@gmail.com" method="POST">
+          <div className='md:flex grid gap-2'>
           <input style={{ width: '20em'}} className='border-2 p-2 mx-auto dark:text-black' type="text" name='name' placeholder='Name' required />
           <input style={{ width: '20em'}} className='border-2 p-2 mx-auto dark:text-black' type="email" name='email' placeholder='Email' required/>
           </div>
-          <textarea style={{height: '200px', width: '41em'}} type='message' className='dark:text-black mx-auto border-2 p-2' placeholder='Message' required/>
+          <textarea style={{height: '200px',}} type='message' className='w-[100%] dark:text-black mx-auto border-2 p-2' name='message' placeholder='Message' required/>
           <button type='submit' className='bg-gray-500   text-white justify-start inline-block text-start w-fit px-3 rounded-lg py-1 text-xl font-bold hover:text-white hover:bg-red-400'>submit</button>
       </form>
       </div>

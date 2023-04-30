@@ -9,7 +9,7 @@ import person from './image/244.png'
 const Home = () => {
 
     return ( 
-     <div className='dark:bg-gray-900 text-center pt-10'  style={{height: '100vh'}}>
+     <div className='dark:bg-gray-900 text-center pt-10 h-[100vh] md:h-[170vh]'>
         <div className=" lg:flex justify-evenly items-center mx-auto px-2">
           <div className="mt-10 hidden lg:flex justify-center ">
             <img src={person} width={300} height={100} style={{height: '40em', width: '25em'}}/>

@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Service = () => {
     return ( 
-        <div className='service h-[160vh] md:h-[120vh] xl:h-[100vh] dark:bg-gray-900 dark:text:white '>
+        <div className='service h-[200vh] xl:h-[170vh] dark:bg-gray-900 dark:text:white '>
             <h1 className='text-gray-600 font-bold dark:text-white pt-5'>Services Rendered</h1>
 
                     <Container>
