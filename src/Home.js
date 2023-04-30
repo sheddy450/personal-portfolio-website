@@ -12,7 +12,7 @@ const Home = () => {
      <div className='dark:bg-gray-900 text-center pt-10 h-[100vh] md:h-[170vh]'>
         <div className=" lg:flex justify-evenly items-center mx-auto px-2">
           <div className="mt-10 hidden lg:flex justify-center ">
-            <img src={person} width={300} height={100} style={{height: '40em', width: '25em'}}/>
+            <img src={person} alt="figure" width={300} height={100} style={{height: '40em', width: '25em'}}/>
           </div>
           <div>
                 <h1 className='text-red-300'>Meet Shedrach</h1>

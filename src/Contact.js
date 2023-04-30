@@ -31,13 +31,13 @@ const Contact = () => {
                     <FontAwesomeIcon className='bg-gray-500 text-white p-2 rounded-full' icon={faGithub} />
                     <p className='text-gray-400 font-bold'>Github</p>
                 </a>
-                <a className='flex gap-1' href="#">
+                <div className='flex gap-1' >
                     <button style={{width:'2em', height:'2em'}} className='bg-gray-500 text-center flex justify-center items-center text-white p-2 rounded-full'><AiFillPhone /></button>
                    <div className='grid text-start'>
                    <p className='text-gray-400 font-bold'>Telephone</p>
                     <p className='-mt-4 text-gray-400 font-bold'>+2349157795092</p>
                    </div>
-                </a>
+                </div>
             </div>
            </Container>
       </div>
