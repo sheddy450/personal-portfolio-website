@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { faPencil} from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +8,7 @@ const Service = () => {
     return ( 
         <div className='service h-[400vh]  md:h-[300vh] xl:h-[170vh] dark:bg-gray-900 dark:text:white '>
             <h1 className='text-gray-600 font-bold dark:text-white pt-5'>Services Rendered</h1>
-                    <a className=' dark:text-white gitHub text-gray-600 hover:text-red-400 font-bold' href="https://github.com/sheddy450?tab=repositories">
+                    <a className='dark:text-white gitHub text-gray-600 hover:text-red-400 font-bold' href="https://github.com/sheddy450?tab=repositories">
                              <FontAwesomeIcon icon={faGithub} />
                                 <p>Frontend development</p>
                             </a>

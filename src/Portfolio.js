@@ -3,7 +3,6 @@ import image from './image/restaurrant.jpg';
 import secondImage from './image/blog.jpg';
 import thirdImage from './image/taskApp.jpg';
 import man from './image/front.jpg';
-import timer from './image/time.jpg'
 import todo from './image/Todo.jpg'
 import weather from './image/weather.jpg'
 import ecommerce from './image/ecommerce.jpg'
