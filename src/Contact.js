@@ -8,7 +8,7 @@ import {AiFillPhone} from 'react-icons/ai'
 
 const Contact = () => {
     return ( 
-       <div style={{height: '100vh'}} className=' dark:bg-gray-900 dark:text-white pt-20 grid gap-5 xl:grid-cols-2 items-baseline justify-around'>
+       <div  className=' h-[150vh] lg:h-[100vh] pb-5 dark:bg-gray-900 dark:text-white pt-20 grid gap-5 xl:grid-cols-2 items-baseline justify-around'>
         <div className="all-contacts">
             <div className='contact'>
                 <h2 className='text-gray-400 font-bold'>Contact</h2>
